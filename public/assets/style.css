@@ -1,0 +1,18 @@
+body{font-family:system-ui,Arial; background:#0b0f14; color:#e8eef6; margin:0;}
+.container{max-width:980px; margin:24px auto; padding:0 14px;}
+h1{font-size:22px; margin:0 0 14px 0;}
+.card{background:#121a24; border:1px solid #223044; border-radius:14px; padding:16px;}
+.footer{opacity:.7; margin-top:14px; font-size:12px;}
+input,select,textarea{width:100%; padding:10px; border-radius:10px; border:1px solid #2a3a52; background:#0d141d; color:#e8eef6;}
+label{display:block; margin:10px 0 6px;}
+button{padding:10px 14px; border:0; border-radius:10px; background:#2b7cff; color:white; cursor:pointer;}
+a{color:#8ec1ff; text-decoration:none;}
+a:hover{text-decoration:underline;}
+.topbar{display:flex; justify-content:space-between; gap:10px; margin:10px 0 14px; padding:10px; border:1px solid #223044; border-radius:14px; background:#0d141d;}
+.table{width:100%; border-collapse:collapse;}
+.table th,.table td{border-bottom:1px solid #223044; padding:10px; text-align:left; vertical-align:top;}
+.badge{padding:2px 8px; border-radius:999px; border:1px solid #223044; font-size:12px;}
+.small{font-size:12px; opacity:.8;}
+.flash{padding:10px; border-radius:12px; background:#0d2416; border:1px solid #224433; margin-bottom:12px;}
+.row{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+@media(max-width:720px){.row{grid-template-columns:1fr;}}
