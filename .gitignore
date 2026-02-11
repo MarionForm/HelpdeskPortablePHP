@@ -1,0 +1,19 @@
+# Composer
+/vendor/
+
+# Runtime (NO subir)
+storage/helpdesk.sqlite
+storage/uploads/
+storage/exports/
+
+# Env / IDE
+.env
+.DS_Store
+.idea/
+.vscode/
+*.log
+Thumbs.db
+
+# Mantener estructura de carpetas
+!storage/uploads/.gitkeep
+!storage/exports/.gitkeep
